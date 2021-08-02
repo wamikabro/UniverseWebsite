@@ -1,0 +1,230 @@
+body{
+    background-image: url(RedUniverse.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color:rgba(0,0,0, 70%);
+    color: white;
+}
+
+.left{
+    display: inline-block;
+    /* border: 2px solid yellowgreen; */
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+.logo img{
+    width: 45px;
+    height: 80px;
+    filter: invert(100%);
+}
+.logolabel{
+    width: 150px;
+    position: absolute;
+    font-size: x-large;
+    font-family: 'Alfa Slab One';
+    top: -16px;
+    left: 50px;
+}
+
+.middle{
+    display: block;
+    width: 62%;
+    margin: 12px auto;
+    /* border: 2px solid tomato; */
+}
+.navigationBar{
+    display: inline-block;  
+}
+.navigationBar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navigationBar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 10px;
+}
+/* .navigationBar li a img:hover{
+    text-decoration: none;
+    color: tomato;
+} */
+
+
+#sun{
+    position: absolute;
+}
+#sun img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#sun img:hover{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+#mercury{
+    position: absolute;
+    left: 380px;
+    
+}
+#mercury img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#mercury img:hover{
+    width: 60px;
+    height: 60px;
+}
+
+#venus{
+    position: absolute;
+    left: 460px;
+    
+}
+#venus img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#venus img:hover{
+    width: 60px;
+    height: 60px;
+}
+#earth{
+    position: absolute;
+    left: 540px;
+    
+}
+#earth img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#earth img:hover{
+    width: 60px;
+    height: 60px;
+}
+#mars{
+    position: absolute;
+    left: 620px;
+    
+}
+#mars img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#mars img:hover{
+    width: 60px;
+    height: 60px;
+}
+#jupiter{
+    position: absolute;
+    left: 700px;
+    
+}
+#jupiter img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#jupiter img:hover{
+    width: 60px;
+    height: 60px;
+}
+#saturn{
+    position: absolute;
+    left: 780px;
+    
+}
+#saturn img{
+    width: 50px;
+    height: 40px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#saturn img:hover{
+    width: 60px;
+    height: 60px;
+}
+#uranus{
+    position: absolute;
+    left: 860px;
+}
+#uranus img{
+    width: 50px;
+    height: 40px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#uranus img:hover{
+    width: 60px;
+    height: 60px;
+}
+#neptune{
+    position: absolute;
+    left: 940px;
+    
+}
+#neptune img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    transition-timing-function: ease;
+}
+#neptune img:hover{
+    width: 60px;
+    height: 60px;
+}
+
+.right{
+  /*  border: 2px solid yellow; */
+    position: absolute;
+    display: inline-block;
+    top: 12px;
+    right: 30px
+}
+.right button{
+    margin-top: 15px;
+    margin-left: 8px;
+    background-color: rgb(255, 174, 0);
+    border: none;
+    border-radius: 36px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.right button a{
+    font-family: 'Open Sans';
+}
+.right button:hover{
+    background-color: rgb(253, 187, 45);
+    
+}
+.right button:active{
+    background-color: rgb(247, 51, 51);
+}
+
+.contentpanel{
+    
+    position: absolute;
+    top: 150px;
+    left: 30px;
+
+
+}
+
+

@@ -1,0 +1,9 @@
+body{
+    background-image: url(RedUniverse.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color:rgba(0,0,0, 70%);
+    color: white;
+}
